@@ -24,7 +24,7 @@ spec:
         app: currency-exchange
     spec:
       containers:
-      - image: anmolranglani/mmv3-currency-exchange-service:0.0.11-SNAPSHOT
+      - image: your_docker_id/mmv3-currency-exchange-service:0.0.11-SNAPSHOT
         imagePullPolicy: IfNotPresent
         name: mmv3-currency-exchange-service
         readinessProbe:
